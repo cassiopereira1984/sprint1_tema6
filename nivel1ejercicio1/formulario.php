@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = $_POST["correo"];
     
     echo "<h2>Datos recibidos!</h2>";
-    echo "El nombre es: " . $_SESSION["nombre"] . "</br>";
-    echo "El correo es: " . $_SESSION["correo"];
+    echo "El nombre es: " . $nombre . "</br>";
+    echo "El correo es: " . $correo;
 }
 
 //$_SESSION["nombre"] = $nombre;
